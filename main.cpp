@@ -6,7 +6,6 @@ void get_time_start(){
 }
 
 void get_time_end(){
-    std::stringstream ss;
     time_t time_end = time(nullptr);
     std::cout << "End of mining: " << ctime(&time_end);
 }
